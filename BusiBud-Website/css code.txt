@@ -1,0 +1,341 @@
+.message{
+margin-top: 33px;
+margin-left: 558px;
+width: 164px;
+height: 48px;
+}
+
+.box1{
+margin-top: 20px;
+margin-left: 249px;
+width: 782px;
+height: 26px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+font: normal normal 600 19px/26px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.box5{
+width: 548px;
+height: 108px;
+text-align: left;
+font: normal normal 900 40px/54px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+margin-top: 120px;
+margin-left: 121px;
+}
+
+.box4{
+width: 509px;
+height: 518px;
+margin-left: 100px;
+}
+
+.box2{
+    width: 100%;
+    height: 518px;
+    display: flex;
+}
+.box6{
+margin-top:20px;
+margin-left: 121px;
+width: 520px;
+height: 120px;
+text-align: left;
+font: normal normal normal 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.box7{
+margin-top:62px;
+margin-left: 121px;
+}
+button{
+background: #1492E6 0% 0% no-repeat padding-box;
+box-shadow: 0px 16px 48px #00000029;
+border-radius: 33px;
+opacity: 1;
+width: 247px;
+height: 65px;
+}
+.box8{
+margin-top: 159px;
+margin-left: 196px;
+width: 888px;
+height: 47px;
+text-align: left;
+font: normal normal bold 35px/47px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.box12{
+margin-top: 60px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.box11{
+width: 308px;
+height: 320px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 18px;
+opacity: 1;
+}
+.box9{
+padding-top: 39px;
+padding-left: 59px;
+width: 190px;
+height: 24px;
+background: transparent url('img/Lorem ipsum dolor sit ..png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.box10{
+padding-top: 60px;
+padding-left: 19px;
+width: 275px;
+height: 192px;
+background: transparent url('img/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo sollicitudin mattis eu sagittisnunc. In hac habita.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.box13{
+margin-top: 160px;
+margin-left: 196px;
+text-align: left;
+font: normal normal bold 35px/47px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.box-13{
+display: flex;
+justify-content: space-evenly;
+margin-top: 120px;
+}
+.box18{
+text-align: left;
+font: normal normal bold 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-top: 39px;
+}
+.box19{
+text-align: left;
+font: normal normal normal 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-top: 19px;
+width: 328px;
+height: 168px;
+}
+.box20{
+margin-left: 105px;
+width: 70px;
+height: 70px;   
+}
+.box21{
+    margin-top: 86px;
+}
+.box22{
+    display: flex;
+    align-items: center;
+}
+.box23{
+margin-left: 39px;
+text-align: left;
+font: normal normal bold 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.box24{
+margin-top: 14px;
+text-align: left;
+font: normal normal normal 21px/28px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 105px;
+width: 600px;
+height: 56px;
+}
+.box25{
+margin-top: 22px;
+margin-left:105px ;
+}
+.box26{
+margin-left: 610px;
+margin-top: 77px;
+}
+.box27{
+margin-top:189px;
+margin-left: 456px;
+width: 368px;
+height: 47px;
+text-align: left;
+font: normal normal bold 35px/47px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.box28{
+margin-top: 76px;
+margin-left: 59px;
+width: 1097px;
+height: 363px;
+background: #F8FAFC 0% 0% no-repeat padding-box;
+box-shadow: 0px 16px 48px #00000029;
+border-radius: 42px;
+opacity: 1;
+}
+.box29{
+margin-left: 43px;
+}
+.box30{
+padding-top: 39px;
+display: flex;
+align-items: center;
+}
+.box31{
+margin-left: 13px;
+width: 275px;
+height: 34px;
+text-align: left;
+font: normal normal 900 25px/34px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.box32{
+height: 263px;
+margin-top: -240px;
+display: flex;
+align-items: center;
+}
+.box33{
+margin-left: 180px;
+height: 263px;
+width: 285px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 16px 48px #00000029;
+border-radius: 30px;
+opacity: 1;
+}
+.box34{
+margin-left: 25px;
+height: 263px;
+width: 285px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 16px 48px #00000029;
+border-radius: 30px;
+opacity: 1;   
+}
+.box35{
+margin-left: 41px;
+width: 62px;
+height: 63px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 17px #00000029;
+opacity: 1;
+border-radius: 50%;
+}
+.box36{
+padding-top:26px;
+padding-left: 25px;
+}
+
+.box37{
+margin-top: 28px;
+display: flex;
+align-items: center;
+}
+.box40{
+width: 54px;
+height: 18px;
+text-align: left;
+font: normal normal 600 13px/18px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;    
+}
+.box38{
+margin-left: 31px;
+}
+.box39{
+margin-left: 8px;
+}
+.box41{
+width: 26px;
+height: 18px;
+text-align: left;
+font: normal normal 600 13px/18px Nunito Sans;
+letter-spacing: 0px;
+color: #615C5C;
+opacity: 1;
+}
+.box42{
+margin-left: 59px;
+}
+.box43{
+width: 237px;
+height: 126px;
+text-align: left;
+font: normal normal normal 13px/18px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-left: 27px;
+margin-top: 31px;
+}
+.box44{
+margin-top: 142px;
+align-items: center;
+justify-content: space-evenly;
+display: flex;
+}
+.box45{
+margin-left: 188px;    
+}
+.box46{
+width: 192px;
+height: 24px;
+text-align: center;
+font: normal normal bold 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1; 
+margin-top: 18px;
+}
+.box47{
+margin-left: 201px;
+}
+.box48{
+width: 192px;
+height: 24px;
+text-align: left;
+font: normal normal bold 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1; 
+margin-top: 18px;
+}
+.box49{
+margin-top: 189px;
+background: #000000 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;  
+height: 364px;
+width: 1280px; 
+color: beige;
+display: flex;
+align-items: end;
+justify-content: center;
+}
