@@ -1,0 +1,50 @@
+
+  .images{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image2{
+    margin-left: 100px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image1{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.result{
+    color: brown;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.move-icon {
+    height: 120px;
+    margin-top: -40px;
+  }
+  .move{
+    color: blue;
+    font-size:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .score{
+    font-size: 30px;
+    color: rgb(21, 194, 128);
+  }
+  .reset-score-button {
+    background-color: rgb(228, 14, 14);
+    font-size: 50px;
+    color: aliceblue;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  

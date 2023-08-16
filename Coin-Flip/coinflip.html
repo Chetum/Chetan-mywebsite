@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coinflip</title>
+    <link rel="stylesheet" href="coinflip.css">
+</head>
+<body>
+     <center>
+        <div class="images">
+        <div class="image1">
+    <button onclick="
+        guess('heads');
+        " ><img src="heads.jpg"></button></div>
+    <div class="image2">  
+    <button onclick="
+    guess('tails');
+    " ><img src="tails.jpg"></button> </div></div></center>
 
+
+<center>
+    <p class="result"></p>
+    <div class="move"></div>
+    <p class="score"></p>
+
+    <button onclick="
+    score.wins=0,
+    score.losses=0
+    document.querySelector('.score')
+         .innerHTML = `wins ${score.wins} , lossses ${score.losses}`;
+    " class="reset-score-button">Clear</button></center>
+
+
+
+    <script>
+        let computerMove='';
+        function pickComputerMove(){
+        const face=Math.random();
+        
+        if(face<0.5){
+            computerMove = 'heads';
+        }
+        else{
+            computerMove = 'tails';
+        }
+        return computerMove;
+    }
+    pickComputerMove();
+    
+
+
+    let score =JSON.parse(localStorage.getItem('score')) || {
+        wins:0,
+        losses:0
+    };
+
+
+
+        function guess(move){
+            let result = '';
+            let computerMove=pickComputerMove();
+
+         if(move === computerMove){
+            result = 'you win';
+            score.wins+=1;
+         }
+         else{
+            result = 'you lose';
+            score.losses+=1;
+         }
+
+
+
+         document.querySelector('.result')
+         .innerHTML = result;
+         document.querySelector('.move')
+         .innerHTML = `you <img src="${move}.jpg" class="move-icon"> = <img src="${computerMove}.jpg" class="move-icon"> computer`;
+         document.querySelector('.score')
+         .innerHTML = `wins ${score.wins} , lossses ${score.losses}`;
+        localStorage.setItem('score',JSON.stringify(score));
+        }
+    </script>
+    
+</body>
+</html>
